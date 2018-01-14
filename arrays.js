@@ -29,7 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 // TODO-6
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1)
+  array.slice(1, lastIndexNum)
 }
 // TODO-7
 function destructivelyRemoveElementFromEndOfArray(array) {
