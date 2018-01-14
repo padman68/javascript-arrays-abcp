@@ -1,0 +1,43 @@
+// TODO-1
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+// TODO-2
+function addElementToBeginningOfArray(array, element) {
+  var array2 = [element, ...array]
+}
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element)
+  return array
+}
+// TODO-3
+function addElementToEndOfArray(array, element) {
+  var array3 = [...array, element]
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
+// TODO-4
+function accessElementInArray(array, index) {
+  return array[index]
+}
+// TODO-5
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
+}
+// TODO-6
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1)
+}
+// TODO-7
+function destructivelyRemoveElementFromEndOfArray(array) {
+array.pop()
+return array
+}
+// TODO-8
+function removeElementFromEndOfArray(array) {
+  array.slice(0, array.length - 1)
+}
+
